@@ -1,0 +1,53 @@
+2020-09-05 22:56:09,446 - test_case01.py[line:19] - test_case01 - INFO - 开始执行测试用例:api_001
+2020-09-05 22:56:09,446 - test_case01.py[line:20] - test_case01 - INFO - 测试功能点为:查询信息
+2020-09-05 22:56:09,446 - test_case01.py[line:21] - test_case01 - INFO - 测试用例前置条件为:None
+2020-09-05 22:56:09,446 - test_case01.py[line:22] - test_case01 - INFO - 测试用例依赖key为:None
+2020-09-05 22:56:09,446 - test_case01.py[line:23] - test_case01 - INFO - 测试url为:http://api.nnzhp.cn/api/user/stu_info
+2020-09-05 22:56:09,446 - test_case01.py[line:24] - test_case01 - INFO - 请求方法为:GET
+2020-09-05 22:56:09,446 - test_case01.py[line:25] - test_case01 - INFO - 测试结果判断方法为:message_code
+2020-09-05 22:56:09,446 - test_case01.py[line:26] - test_case01 - INFO - 测试预期结果为:{'error_code': 2, 'msg': '无结果'}
+2020-09-05 22:56:09,621 - test_case01.py[line:28] - test_case01 - INFO - 返回结果为:{'error_code': 2, 'msg': '无结果'}
+2020-09-05 22:56:09,622 - test_case01.py[line:29] - test_case01 - INFO - 返回状态码为:200
+2020-09-05 22:56:09,833 - test_case01.py[line:19] - test_case01 - INFO - 开始执行测试用例:api_002
+2020-09-05 22:56:09,833 - test_case01.py[line:20] - test_case01 - INFO - 测试功能点为:查询信息
+2020-09-05 22:56:09,833 - test_case01.py[line:21] - test_case01 - INFO - 测试用例前置条件为:None
+2020-09-05 22:56:09,833 - test_case01.py[line:22] - test_case01 - INFO - 测试用例依赖key为:None
+2020-09-05 22:56:09,833 - test_case01.py[line:23] - test_case01 - INFO - 测试url为:http://api.nnzhp.cn/api/user/stu_info
+2020-09-05 22:56:09,833 - test_case01.py[line:24] - test_case01 - INFO - 请求方法为:GET
+2020-09-05 22:56:09,833 - test_case01.py[line:25] - test_case01 - INFO - 测试结果判断方法为:message_code
+2020-09-05 22:56:09,833 - test_case01.py[line:26] - test_case01 - INFO - 测试预期结果为:{'error_code': 3001, 'msg': '必填参数未填！请查看接口文档！'}
+2020-09-05 22:56:09,966 - test_case01.py[line:28] - test_case01 - INFO - 返回结果为:{'error_code': 3001, 'msg': '必填参数未填！请查看接口文档！'}
+2020-09-05 22:56:09,966 - test_case01.py[line:29] - test_case01 - INFO - 返回状态码为:200
+2020-09-05 22:56:10,247 - test_case01.py[line:19] - test_case01 - INFO - 开始执行测试用例:api_003
+2020-09-05 22:56:10,248 - test_case01.py[line:20] - test_case01 - INFO - 测试功能点为:查询信息
+2020-09-05 22:56:10,248 - test_case01.py[line:21] - test_case01 - INFO - 测试用例前置条件为:None
+2020-09-05 22:56:10,248 - test_case01.py[line:22] - test_case01 - INFO - 测试用例依赖key为:None
+2020-09-05 22:56:10,248 - test_case01.py[line:23] - test_case01 - INFO - 测试url为:http://api.nnzhp.cn/api/user/stu_info
+2020-09-05 22:56:10,248 - test_case01.py[line:24] - test_case01 - INFO - 请求方法为:GET
+2020-09-05 22:56:10,248 - test_case01.py[line:25] - test_case01 - INFO - 测试结果判断方法为:json
+2020-09-05 22:56:10,248 - test_case01.py[line:26] - test_case01 - INFO - 测试预期结果为:{'error_code': 0, 'stu_info': [{'id': 1000199, 'name': '0', 'sex': '?', 'age': 22, 'addr': '北京市昌平区', 'grade': '0', 'phone': '12345678924', 'gold': 100}, {'id': 1000239, 'name': '0', 'sex': '?', 'age': 22, 'addr': '北京市昌平区', 'grade': '0', 'phone': '12345638924', 'gold': 100}]}
+
+2020-09-05 22:56:10,488 - test_case01.py[line:28] - test_case01 - INFO - 返回结果为:{'error_code': 0, 'stu_info': [{'id': 1000199, 'name': '0', 'sex': '?', 'age': 22, 'addr': '北京市昌平区', 'grade': '0', 'phone': '12345678924', 'gold': 100}, {'id': 1000239, 'name': '0', 'sex': '?', 'age': 22, 'addr': '北京市昌平区', 'grade': '0', 'phone': '12345638924', 'gold': 100}]}
+2020-09-05 22:56:10,488 - test_case01.py[line:29] - test_case01 - INFO - 返回状态码为:200
+2020-09-05 22:56:10,645 - test_case01.py[line:37] - test_case01 - ERROR - False is not true
+2020-09-05 22:56:10,773 - test_case01.py[line:19] - test_case01 - INFO - 开始执行测试用例:api_004
+2020-09-05 22:56:10,773 - test_case01.py[line:20] - test_case01 - INFO - 测试功能点为:查询信息
+2020-09-05 22:56:10,773 - test_case01.py[line:21] - test_case01 - INFO - 测试用例前置条件为:None
+2020-09-05 22:56:10,773 - test_case01.py[line:22] - test_case01 - INFO - 测试用例依赖key为:None
+2020-09-05 22:56:10,774 - test_case01.py[line:23] - test_case01 - INFO - 测试url为:http://api.nnzhp.cn/api/user/stu_info
+2020-09-05 22:56:10,774 - test_case01.py[line:24] - test_case01 - INFO - 请求方法为:GET
+2020-09-05 22:56:10,774 - test_case01.py[line:25] - test_case01 - INFO - 测试结果判断方法为:json
+2020-09-05 22:56:10,774 - test_case01.py[line:26] - test_case01 - INFO - 测试预期结果为:{'error_code': 2, 'msg': '无结果'}
+2020-09-05 22:56:10,936 - test_case01.py[line:28] - test_case01 - INFO - 返回结果为:{'error_code': 2, 'msg': '无结果'}
+2020-09-05 22:56:10,937 - test_case01.py[line:29] - test_case01 - INFO - 返回状态码为:200
+2020-09-05 22:56:11,186 - test_case01.py[line:19] - test_case01 - INFO - 开始执行测试用例:api_006
+2020-09-05 22:56:11,187 - test_case01.py[line:20] - test_case01 - INFO - 测试功能点为:查询信息
+2020-09-05 22:56:11,188 - test_case01.py[line:21] - test_case01 - INFO - 测试用例前置条件为:None
+2020-09-05 22:56:11,188 - test_case01.py[line:22] - test_case01 - INFO - 测试用例依赖key为:None
+2020-09-05 22:56:11,188 - test_case01.py[line:23] - test_case01 - INFO - 测试url为:http://api.nnzhp.cn/api/user/stu_info
+2020-09-05 22:56:11,188 - test_case01.py[line:24] - test_case01 - INFO - 请求方法为:GET
+2020-09-05 22:56:11,188 - test_case01.py[line:25] - test_case01 - INFO - 测试结果判断方法为:json
+2020-09-05 22:56:11,188 - test_case01.py[line:26] - test_case01 - INFO - 测试预期结果为:{'error_code': 2, 'msg': '无结果'}
+2020-09-05 22:56:11,352 - test_case01.py[line:28] - test_case01 - INFO - 返回结果为:{'error_code': 2, 'msg': '无结果'}
+2020-09-05 22:56:11,352 - test_case01.py[line:29] - test_case01 - INFO - 返回状态码为:200
+2020-09-05 22:56:11,500 - test_case01.py[line:37] - test_case01 - ERROR - False is not true

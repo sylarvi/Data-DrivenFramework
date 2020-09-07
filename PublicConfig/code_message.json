@@ -1,0 +1,7 @@
+{
+    "api/user/stu_info":[
+        {"error_code": 0},
+        {"error_code": 2, "msg": "无结果"},
+        {"error_code": 3001, "msg": "必填参数未填！请查看接口文档！"}
+    ]
+}

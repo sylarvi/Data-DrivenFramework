@@ -1,0 +1,8 @@
+{
+  "api_001":{"error_code": 2, "msg": "无结果"},
+  "api_002":{"error_code": 3001, "msg": "必填参数未填！请查看接口文档！"},
+  "api_003":{"error_code": 0, "stu_info": [{"id": 1000199, "name": "0", "sex": "?", "age": 22, "addr": "北京市昌平区", "grade": "0", "phone": "12345678924", "gold": 100}]},
+  "api_004":{"error_code": 2, "msg": "无结果"},
+  "api_006":{"error_code": 2, "msg": "无结果", "base_id": 2},
+  "dict01":{"error_code": 0, "stu_info": [{"id": 1143, "sex1": "2"}]}
+}
