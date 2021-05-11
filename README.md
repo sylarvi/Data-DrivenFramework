@@ -1,4 +1,4 @@
-# Data-DrivenFranmework
+# Data-DrivenFramework
 
 基于Python+requests的数据驱动接口自动化测试框架
 
